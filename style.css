@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculator {
+margin-left: 20px;
+    width:255px;
+    height:400px;
+    border:2px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+#display {
+    margin-top: 17px;
+    width: 89%;
+    height:40px;
+    margin-left: 14px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.btn {
+    height:40px;
+    width:58px;
+    margin:5px;
+}
